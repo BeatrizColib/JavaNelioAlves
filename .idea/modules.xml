@@ -3,19 +3,27 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SECAO_08/01/01.iml" filepath="$PROJECT_DIR$/SECAO_08/01/01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_09/AULA/AULA.iml" filepath="$PROJECT_DIR$/SECAO_09/AULA/AULA.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA-Nelio.iml" filepath="$PROJECT_DIR$/JAVA-Nelio.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_04/SECAO_04.iml" filepath="$PROJECT_DIR$/SECAO_04/SECAO_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_05/SECAO_05.iml" filepath="$PROJECT_DIR$/SECAO_05/SECAO_05.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_06/SECAO_06.iml" filepath="$PROJECT_DIR$/SECAO_06/SECAO_06.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_07/SECAO_07.iml" filepath="$PROJECT_DIR$/SECAO_07/SECAO_07.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_08/SECAO_08.iml" filepath="$PROJECT_DIR$/SECAO_08/SECAO_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_09/SECAO_09.iml" filepath="$PROJECT_DIR$/SECAO_09/SECAO_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_10/SECAO_10.iml" filepath="$PROJECT_DIR$/SECAO_10/SECAO_10.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_08/TV/TV.iml" filepath="$PROJECT_DIR$/SECAO_08/TV/TV.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_04/aula_26/aula_26.iml" filepath="$PROJECT_DIR$/SECAO_04/aula_26/aula_26.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_04/aula_28/aula_28.iml" filepath="$PROJECT_DIR$/SECAO_04/aula_28/aula_28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_09/exercicios_secao09/exercicio01/exercicio01.iml" filepath="$PROJECT_DIR$/SECAO_09/exercicios_secao09/exercicio01/exercicio01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_08/exercicios/exercicios.iml" filepath="$PROJECT_DIR$/SECAO_08/exercicios/exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_09/exercicios_secao09/exercicios_secao09.iml" filepath="$PROJECT_DIR$/SECAO_09/exercicios_secao09/exercicios_secao09.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_08/exercicios/questa02/questa02.iml" filepath="$PROJECT_DIR$/SECAO_08/exercicios/questa02/questa02.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_08/exercicios/questao01/questao01.iml" filepath="$PROJECT_DIR$/SECAO_08/exercicios/questao01/questao01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_08/exercicios/questao03/questao03.iml" filepath="$PROJECT_DIR$/SECAO_08/exercicios/questao03/questao03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_08/exercicios/questao04/questao04.iml" filepath="$PROJECT_DIR$/SECAO_08/exercicios/questao04/questao04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_10/vetores/vetores.iml" filepath="$PROJECT_DIR$/SECAO_10/vetores/vetores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_10/vetores02/vetores02.iml" filepath="$PROJECT_DIR$/SECAO_10/vetores02/vetores02.iml" />
     </modules>
   </component>
 </project>
