@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/SECAO_08/01/01.iml" filepath="$PROJECT_DIR$/SECAO_08/01/01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_09/AULA/AULA.iml" filepath="$PROJECT_DIR$/SECAO_09/AULA/AULA.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA-Nelio.iml" filepath="$PROJECT_DIR$/JAVA-Nelio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_10/exercicios_vetor/Questao_10/Questao_10.iml" filepath="$PROJECT_DIR$/SECAO_10/exercicios_vetor/Questao_10/Questao_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_10/exercicios_vetor/Questao_11/Questao_11.iml" filepath="$PROJECT_DIR$/SECAO_10/exercicios_vetor/Questao_11/Questao_11.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_04/SECAO_04.iml" filepath="$PROJECT_DIR$/SECAO_04/SECAO_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_05/SECAO_05.iml" filepath="$PROJECT_DIR$/SECAO_05/SECAO_05.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_06/SECAO_06.iml" filepath="$PROJECT_DIR$/SECAO_06/SECAO_06.iml" />
@@ -24,8 +26,8 @@
       <module fileurl="file://$PROJECT_DIR$/SECAO_08/exercicios/questao03/questao03.iml" filepath="$PROJECT_DIR$/SECAO_08/exercicios/questao03/questao03.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_08/exercicios/questao04/questao04.iml" filepath="$PROJECT_DIR$/SECAO_08/exercicios/questao04/questao04.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_10/exercicios_vetor/questao_03/questao_03.iml" filepath="$PROJECT_DIR$/SECAO_10/exercicios_vetor/questao_03/questao_03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SECAO_10/exercicios_vetor/questoes 1 e 2/questoes 1 e 2.iml" filepath="$PROJECT_DIR$/SECAO_10/exercicios_vetor/questoes 1 e 2/questoes 1 e 2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SECAO_10/vetores/vetores.iml" filepath="$PROJECT_DIR$/SECAO_10/vetores/vetores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_10/exercicios_vetor/questoes/questoes.iml" filepath="$PROJECT_DIR$/SECAO_10/exercicios_vetor/questoes/questoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SECAO_10/vetores01/vetores01.iml" filepath="$PROJECT_DIR$/SECAO_10/vetores01/vetores01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SECAO_10/vetores02/vetores02.iml" filepath="$PROJECT_DIR$/SECAO_10/vetores02/vetores02.iml" />
     </modules>
   </component>
