@@ -52,7 +52,7 @@ public class Program {
         double percentageUnder16 = 0;
         percentageUnder16 = (100 * countUnder16) / quantity;
 
-        System.out.printf("Number of people under 16 years: %d \nPercentage under 16 years: %.2f", countUnder16, percentageUnder16);
+        System.out.printf("Number of people under 16 years: %d \nPercentage under 16 years: %.1f", countUnder16, percentageUnder16);
         System.out.println();
         for (Person p :people){
             if (p.getAge() <16){
