@@ -1,10 +1,19 @@
 import java.util.ArrayList;
-import java.util.List;
 import java.util.stream.Collectors;
 
-public class Program {
+public class List {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
+        java.util.List<String> list = new ArrayList<>();
+
+        /*
+        import java.util.ArrayList;
+        import java.util.List;
+
+        //list <tipo da variavel> nomedalista = new ...
+        List<Integer> negatives = new ArrayList<>();
+         */
+
+        //adicionar
         list.add("Maria");
         list.add("Alex");
         list.add("Bob");
@@ -31,7 +40,7 @@ public class Program {
         System.out.println("Index of Marco: " + ((ArrayList<?>) list).indexOf("Marco"));
         System.out.println("---------------------");
 
-        List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
+        java.util.List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
         /* lista so com elementos que iniciem com A
         - declara uma nova lista de nome "result" -
         - transforma em tipo stream - versao do java 8 em diante que aceita expressoes com lambda
