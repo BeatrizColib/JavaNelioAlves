@@ -15,6 +15,7 @@ public class Calculos {
     LocalDate nextWeekDate = d04.plusDays(7);
 
     LocalDateTime pastWeekLocalDate = d05.minusDays(7);
+
     LocalDateTime nextWeekLocalDate = d05.plusDays(7);
 
     Instant pastWeekInstant = d06.minus(7, ChronoUnit.DAYS);
