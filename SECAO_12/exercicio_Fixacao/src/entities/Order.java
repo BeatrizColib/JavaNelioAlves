@@ -27,7 +27,7 @@ public class Order {
         this.moment = moment;
         this.status = status;
         this.client = client;
-    }
+    } //nao coloca coleçao(lista), recomendado colocar os tipos unicos
 
     //getters and setters
     public Date getMoment() {
@@ -54,9 +54,7 @@ public class Order {
         this.client = client;
     }
 
-    public List<OrderItem> getItens() {
-        return items;
-    }
+    //sem get e set da lista para protegê-la
 
     //methods
     public void addItem(OrderItem item){
@@ -80,11 +78,11 @@ public class Order {
         sb.append("\nORDER SUMMARY:");
         sb.append("\nOrder moment: "+ sdf.format(moment));
         sb.append("\nOrder Status: " + status);
-        sb.append("\nClient: " + client.getName() + " (" + sdf2.format(client.getBirthDate()) + ") - " + client.getEmail());
+        sb.append("\nClient: " + client);
 
         sb.append("\nOrder items: ");
         for (OrderItem i :items) {
-            sb.append("\n" + i.getProduct().getName() + ", $" + i.getPrice() + ", Quantity: " + i.getQuantity() + ", Subtotal: $" + String.format("%.2f",i.subTotal()));
+            sb.append("\n" + i);
         }
         sb.append("\nTotal price: $" + String.format("%.2f",total()));
         return sb.toString();

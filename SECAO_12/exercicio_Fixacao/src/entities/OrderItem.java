@@ -6,7 +6,6 @@ public class OrderItem {
     private Product product; //cada orderitem tem um product associado
 
     //constructor
-
     public OrderItem() {
     }
 
@@ -44,5 +43,12 @@ public class OrderItem {
     //methods
     public Double subTotal() {
         return price * quantity;
+    }
+
+    //toString
+    @Override
+    public String toString() {
+        return getProduct().getName() + ", $" + String.format("%.2f", price) +
+                ", Quantity: " + quantity + ", Subtotal: $" + String.format("%.2f", subTotal());
     }
 }

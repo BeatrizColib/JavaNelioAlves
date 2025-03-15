@@ -27,16 +27,19 @@ public class Program {
         System.out.print("Email: ");
         String email = sc.nextLine();
         System.out.print("Birth date: (DD/MM/YYYY): ");
-        String birthdate = sc.nextLine();
+        String birthdate = sc.nextLine(); //ou poderia ser "Date birthDate = sdf2.parse(sc.next()); e no construtor, colocar so birthDate
 
         //Instantiating a customer
         Client client01 = new Client(name, email, sdf2.parse(birthdate));
 
-        //Instantiating order
-        Order orderClient01 = new Order(new Date(), OrderStatus.PROCESSING, client01);
-
         //Sale registration
         System.out.println("Enter order data: ");
+        System.out.print("Status: ");
+        OrderStatus status = OrderStatus.valueOf(sc.next()); //ele já converte o que foi digitado em string para o tipo do OrderStatus
+
+        //Instantiating order
+        Order orderClient01 = new Order(new Date(), status, client01);
+
         System.out.print("Enter how many items are in the order: ");
         int quantity = sc.nextInt();
         sc.nextLine();
@@ -55,10 +58,10 @@ public class Program {
             //Instantiating Product, OrderItem
             Product product = new Product(productName, productPrice); //criei o produto
             OrderItem orderItem = new OrderItem(productQuantity, productPrice, product); //associo o produto, com preço e quantidade ao orderItem
-            orderItem.subTotal();
+            //orderItem.subTotal(); - duvida - pq mesmo sem chamar aqui e o total, ele ainda assim roda?
             orderClient01.addItem(orderItem); //associa o item ao pedido
         }
-        orderClient01.total();
+        //orderClient01.total();
 
         //Order sumary
         System.out.println(orderClient01);
