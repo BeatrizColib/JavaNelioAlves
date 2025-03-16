@@ -26,4 +26,11 @@ public class SavingsAccount extends Account {
     public void updateBalance(){
         balance += interestRate * balance;
     }
+
+    @Override
+    public final void withdraw(Double amount) { //saque
+        this.balance -= amount;
+    }
+    //final para que nao possa ser mudado numa subclasse, a fim de proteger de possiveis erros.
+    //Mas não é proibido, caso precise pode ser usado.
 }

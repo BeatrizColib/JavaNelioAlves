@@ -34,5 +34,22 @@ public class Main {
             acc5.updateBalance();
             System.out.println("Balance updated!");
         }
+
+
+        Account acc6 = new SavingsAccount(1006, "julio c", 150.0, 0.0);
+        acc6.withdraw(50.0);
+        System.out.println("\nWithdraw successful");
+        System.out.println(acc6.getBalance());
+
+        Account acc7 = new Account(1007, "mulbia", 150.0);
+        acc7.withdraw(50.0);
+        System.out.println("\nWithdraw successful");
+        System.out.println(acc7.getBalance());
+
+        Account acc8 = new BusinessAccount(1008, "André", 1800.00, 3000.00);
+        acc8.withdraw(800.0);
+        System.out.println("\nWithdraw successful");
+        System.out.println(acc8.getBalance());
+
     }
 }
