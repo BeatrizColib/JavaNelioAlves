@@ -24,7 +24,15 @@ public class Program {
         for (int i=1; i<=quantity; i++){
             System.out.println("Tax payer #" + i + " data: ");
             System.out.print("Individual or Company? (i/c): ");
-            String type = sc.nextLine().trim().toLowerCase(); //trim - remove espaços antes e depois
+            String type;//trim - remove espaços antes e depois
+            while (true){
+                type = sc.nextLine().trim().toLowerCase();
+                if (type.equals("c") || type.equals("i")){
+                    break;
+                } else {
+                    System.out.print("Invalid type! Individual or Company? (i/c): ");
+                }
+            }
 
             System.out.print("Name: ");
             String name = sc.nextLine().trim();
@@ -49,7 +57,7 @@ public class Program {
 
                     TaxPayer taxPayerComp = new Company(name, anualIncome, numOfEmployees);
                     taxPayers.add(taxPayerComp);
-
+                    break;
             }
         }
 
