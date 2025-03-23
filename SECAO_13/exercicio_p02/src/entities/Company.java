@@ -1,13 +1,13 @@
 package entities;
 
 public class Company extends TaxPayer{
-    private int numberOfEmployees;
+    private Integer numberOfEmployees;
 
     //constructors
     public Company() {
     }
 
-    public Company(String name, Double anualIncome, int numberOfEmployees) {
+    public Company(String name, Double anualIncome, Integer numberOfEmployees) {
         super(name, anualIncome);
         this.numberOfEmployees = numberOfEmployees;
     }

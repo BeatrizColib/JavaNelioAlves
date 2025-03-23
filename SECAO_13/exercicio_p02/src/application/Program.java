@@ -52,7 +52,7 @@ public class Program {
                     break;
                 case "c":
                     System.out.print("Number of employees: ");
-                    int numOfEmployees = sc.nextInt();
+                    Integer numOfEmployees = sc.nextInt();
                     sc.nextLine();
 
                     TaxPayer taxPayerComp = new Company(name, anualIncome, numOfEmployees);
