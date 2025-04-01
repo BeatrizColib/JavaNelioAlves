@@ -30,7 +30,7 @@ git clone https://github.com/BeatrizColib/JavaNelioAlves.git
 
 ## ✍️ Autor
 
-Feito com dedicação por **Ana Beatriz Colib**
+Feito com dedicação por **Beatriz Belmiro**
 
 📎 [GitHub](https://github.com/BeatrizColib)  
 📎 [LinkedIn](https://www.linkedin.com/in/beatrizbelmiro/)
